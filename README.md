@@ -18,12 +18,14 @@ Mining software will only send a share when it has found a block. No shares for 
 <a name="setup"/>
 
 ## Setup:
-For python 11+, need to update the Libs yarl, aiosignal, frozenlist 
 1. Requires python 3.8+
 2. pyenv local 3.8+
 3. Run `python3 -m pip install -r requirements.txt`
   - In Linux sudo apt-get install build-essential python-dev. pip install pysha3. python3 -m pip install --upgrade pip
   - Note that the pysha3 module will need to be compiled so you need some kind of C compiler installed. Alternatively, a precompiled `.whl` is avaliable in `windows/python_modules`.
+
+For python 11+, need to update the Libs yarl, aiosignal, frozenlist 
+pip install aiohttp==3.8.2 yarl==1.8.1 frozenlist==1.3.1 typing-extensions
    
 <a name="windows"/>
 
