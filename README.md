@@ -22,16 +22,16 @@ For python 11+, need to update the Libs yarl, aiosignal, frozenlist
 1. Requires python 3.8+
 2. pyenv local 3.8+
 3. Run `python3 -m pip install -r requirements.txt`
-4. python3 -m pip install --upgrade pip
+  - In Linux sudo apt-get install build-essential python-dev. pip install pysha3. python3 -m pip install --upgrade pip
   - Note that the pysha3 module will need to be compiled so you need some kind of C compiler installed. Alternatively, a precompiled `.whl` is avaliable in `windows/python_modules`.
-  - In Linux sudo apt-get install build-essential python-dev. pip install pysha3 
+   
 <a name="windows"/>
 
 #### For Windows:
 A bat file is avaliable to auto install python and dependencies and generate another bat file to run the stratum.
 1. Ensure your node is configured [as required](#node).
 2. (Re)start your node (the qt wallet works).
-3. Download this repo (https://github.com/PrimeCryptoCoin/primeai-stratum-proxy/archive/refs/heads/master.zip)
+3. Download this repo (https://github.com/PrimeCryptoCoin/primeai-stratum-proxy.git)
 4. Unzip the downloaded file
 5. Open the unzipped folder
 6. Open the `windows` folder
@@ -89,13 +89,6 @@ Connect to it with your miner of choise:
 <a name="help"/>
 
 ## Help:
-@sealclubber is avaliable on the community PrimeAI server (https://discord.gg/vZ9XrTSRYr)
-Donate: 
-  - PrimeAI: Ab8Wn5u6pc29ZhQkk1ocacFn3Hs6mdAioN
-
-Or help support the PrimeAI team,
-Donate: 
-  - PrimeAI: Ab8KBCTTJgy7XnsPsHbnwRMJD4MFjG12hU
 
 @kralverde#0550 is avaliable on the community RVN server (https://discord.gg/jn6uhur)
 Donate: 
