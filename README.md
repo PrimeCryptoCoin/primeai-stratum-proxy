@@ -20,9 +20,11 @@ Mining software will only send a share when it has found a block. No shares for 
 ## Setup:
 
 1. Requires python 3.8+
-2. Run `python3 -m pip install -r requirements.txt`
+2. pyenv local 3.8+
+3. Run `python3 -m pip install -r requirements.txt`
+4. python3 -m pip install --upgrade pip
   - Note that the pysha3 module will need to be compiled so you need some kind of C compiler installed. Alternatively, a precompiled `.whl` is avaliable in `windows/python_modules`.
-
+  - pip install pysha3 in Linux
 <a name="windows"/>
 
 #### For Windows:
