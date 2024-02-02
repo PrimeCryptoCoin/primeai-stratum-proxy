@@ -24,7 +24,7 @@ Mining software will only send a share when it has found a block. No shares for 
 3. Run `python3 -m pip install -r requirements.txt`
 4. python3 -m pip install --upgrade pip
   - Note that the pysha3 module will need to be compiled so you need some kind of C compiler installed. Alternatively, a precompiled `.whl` is avaliable in `windows/python_modules`.
-  - pip install pysha3 in Linux
+  - In Linux sudo apt-get install build-essential python-dev. pip install pysha3 
 <a name="windows"/>
 
 #### For Windows:
