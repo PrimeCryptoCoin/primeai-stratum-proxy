@@ -18,7 +18,7 @@ Mining software will only send a share when it has found a block. No shares for 
 <a name="setup"/>
 
 ## Setup:
-
+For python 11+, need to update the Libs yarl, aiosignal, frozenlist 
 1. Requires python 3.8+
 2. pyenv local 3.8+
 3. Run `python3 -m pip install -r requirements.txt`
